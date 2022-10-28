@@ -1,7 +1,7 @@
-#include "variadic_functions.h"
+#include "printstuff.h"
 
 /**
- * print_all - prints anything.
+ * thecoolerprintf - prints anything.
  * @format: a list of types of arguments passed to the function.
  *
  * Return: no return.
