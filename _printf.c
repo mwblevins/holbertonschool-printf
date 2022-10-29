@@ -38,6 +38,19 @@ int print_percent(__attribute__((unused))va_list list)
 	charput('%');
 	return (1);
 }
+
+/**
+ * print_integer - Prints an int
+ * @list: list
+ * Return: amount of characters listed
+ */
+int print_integer(va_list list)
+{
+	int num_length;
+
+	num_length = print_number(list);
+	return (num_length);
+}
 /**
  * _printf - Receives the main string and all the necessary parameters to
  * print a formated string
@@ -51,6 +64,8 @@ int _printf(const char *format, ...)
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
+		{"d", print_integer},
+		{"i", print_integer},
 		{NULL, NULL}
 	};
 	va_list arg_list;
