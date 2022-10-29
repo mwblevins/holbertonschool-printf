@@ -1,4 +1,4 @@
-#include "printstuff.h"
+#include "main.h"
 
 /**
  * numprint - function that prints numbers followed by a new line
