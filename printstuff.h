@@ -11,7 +11,8 @@
  */
 
 int charput(char c);
-
+void numprint(void);
+void strput(char *str);
 
 
 
