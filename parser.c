@@ -13,11 +13,11 @@ int parser(const char *format, conver_t f_list[], va_list arg_list)
 	int i, j, r_val, printed_chars;
 
 	printed_chars = 0;
-	for (i = 0; format[i] != '\0'; i++)/* Iterates through the main str*/
+	for (i = 0; format[i] != '\0'; i++)
 	{
-		if (format[i] == '%') /*Checks for format specifiers*/
+		if (format[i] == '%')
 		{
-			/*Iterates through struct to find the right func*/
+		
 			for (j = 0; f_list[j].sym != NULL; j++)
 			{
 				if (format[i + 1] == f_list[j].sym[0])
@@ -40,11 +40,11 @@ int parser(const char *format, conver_t f_list[], va_list arg_list)
 				else
 					return (-1);
 			}
-			i = i + 1; /*Updating i to skip format symbols*/
+			i = i + 1;
 		}
 		else
 		{
-			charput(format[i]); /*call the write function*/
+			charput(format[i]);
 			printed_chars++;
 		}
 	}
