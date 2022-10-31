@@ -60,6 +60,3 @@ $
 |       %d      |     digit     |
 |       %i      |    integer    |
 |       %%      |  percentage   |
-
-
-##
