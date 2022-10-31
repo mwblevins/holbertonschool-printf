@@ -37,7 +37,7 @@ $
 3. Formatting would be using certain specifiers: %c, %s, %d, %i, %%, and more...
 4. An example of using your code, and the output
 
-    1. ```
+```
 int main(void)
 {
     _printf("Testing the print, %%, %s, %d, %i, %c = working\n", *insert variables here*);
