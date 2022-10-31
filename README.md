@@ -35,9 +35,9 @@ $
 1. Output could be any character, string, integer, percentage, hexadecimal, and more
 2. Input would be and c (character), s (string), % (percentage or modulo), d (digit), i (integer).....
 3. Formatting would be using certain specifiers: %c, %s, %d, %i, %%, and more...
-4. An example of using your code, and the output
+4. An example of using your code, and the output:
 
-    1. ```
+```
 int main(void)
 {
     _printf("Testing the print, %%, %s, %d, %i, %c = working\n", *insert variables here*);
@@ -60,6 +60,3 @@ $
 |       %d      |     digit     |
 |       %i      |    integer    |
 |       %%      |  percentage   |
-
-
-##
