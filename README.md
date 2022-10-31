@@ -31,6 +31,19 @@ $ ./print
 Hello, World
 $
 ```
+
+## Description of What Each File Shows
+```
+man_3_printf ----------------------- custom manpage for custom _printf function
+_printf.c -------------------------- holds custom _printf function
+main.h ----------------------------- holds prototypes of functions spread across all files
+helper_functions.c ----------------- holds functions that help make the up _printf, this includes a way to handle %s to print a string
+charput.c -------------------------- handles %c to print a single character
+print_numbers.c -------------------- handles %d and %i to print (d)ecimal/(i)ntegers in base 10
+parser.c --------------------------- main body of the code for _printf
+README.md -------------------------- readme file that helps explain our function
+```
+
 ## Low Level Description
 1. Output could be any character, string, integer, percentage, hexadecimal, and more
 2. Input would be and c (character), s (string), % (percentage or modulo), d (digit), i (integer).....
