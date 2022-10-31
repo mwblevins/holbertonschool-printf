@@ -32,25 +32,34 @@ Hello, World
 $
 ```
 ## Low Level Description
-1. Output
-2. Input (does it only take certain data types?)
-3. Formatting
+1. Output could be any character, string, integer, percentage, hexadecimal, and more
+2. Input would be and c (character), s (string), % (percentage or modulo), d (digit), i (integer).....
+3. Formatting would be using certain specifiers: %c, %s, %d, %i, %%, and more...
 4. An example of using your code, and the output
 
-    1. Use code blocks (already knew this)
+    1. ```
+int main(void)
+{
+    _printf("Testing the print, %%, %s, %d, %i, %c = working\n", *insert variables here*);
+    return (0);
+}
+$ ./print
+$ Testing the print, %37, hello_world, 2, 12, B = working
+$
+```
 
-### Return Value(s)
-* Tell us what you expect the code to return (assuming it does)!
-* Tell us what to expect if theres errors (wrong input, special cases that the code doesn't cover yet)
+## Formatting
+* Specifiers: %c, %s, %d, %i, %%, and more...
+* If anything isn't used properly, it would either display (-1), print "%c" instead of a character or expected output, or might not even run depending on what you get wrong.
+*Specifier Table:
 
-### Formatting
-* Tell us what kind of formatting the code expects (if expected)
-* Tell us what happens when not used properly!
-    
-    * Or if there are any bugs (if known)
-
-| Left Columns  | Right Columns |
+|   Specifier   |    Output     |
 | ------------- | :-----------: |
-|   chicken     |    butts      |
+|       %c      |   character   |
+|       %s      |    string     |
+|       %d      |     digit     |
+|       %i      |    integer    |
+|       %%      |  percentage   |
 
 
+##
