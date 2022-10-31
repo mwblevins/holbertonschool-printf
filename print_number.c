@@ -5,4 +5,4 @@
  * @args: List of arguments
  * Return: the number of args
  */
-int print_number(va_list args);
+int print_number(va_list args)
