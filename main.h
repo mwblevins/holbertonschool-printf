@@ -6,8 +6,7 @@
 #include <unistd.h>
 #include <stdarg.h>
 /**
- * struct convert - defines a strcuture for fucntions and symbols
- *
+ * struct convert - defines a strcuture for functions and symbols
  * @sym: Operator
  * @f: function
  */
@@ -25,7 +24,6 @@ int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
 int charput(char c);
 
-unsigned int base_len(unsigned int, int);
 char *rev_string(char *);
 void write_base(char *str);
 char *_memcpy(char *dest, char *src, unsigned int n);
